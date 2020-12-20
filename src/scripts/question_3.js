@@ -32,5 +32,7 @@ const lettersSum = (string1, string2) => {
     var higherStr2 = Math.max(...map2.values());
     var lowerStr2 = Math.min(...map2.values());
 
-    return (higherStr1*lowerStr2) + (higherStr2*lowerStr1);
+    //  Equation given
+    var equation = (higherStr1*lowerStr2) + (higherStr2*lowerStr1);
+    return equation
 }
