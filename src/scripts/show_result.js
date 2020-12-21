@@ -4,6 +4,7 @@
 */
 
 const showHtml = (function_return, id) => {
-  document.getElementById(id).innerHTML = function_return
+  document.getElementById(id).innerHTML = function_return;
+  console.log(id + ": " + function_return);
 }
     
