@@ -30,7 +30,7 @@ Resolução: [question_1.js](./src/scripts/question_1.js)
 ### Questão 2
 Escreva uma função que receba 2 parâmetros, uma String e um Inteiro.Essa função deve ter como retorno outra String. O Objetivo da função é substituir o caracter "?" criando uma repetição do caracter que está antes dele o número de vezes do parâmetro Inteiro. Caso o caracter "?" seja o primeiro da String fornecida ele deve repetir o último caracter da String. Exemplos:  
    a. function replaceChar("x?yzza?y?", 1) => "xxyzzaayy"  
-    b. function replaceChar("x?yzza?y?", 2) => "xxxyzzaaayyy"  
+  b. function replaceChar("x?yzza?y?", 2) => "xxxyzzaaayyy"  
     c. function replaceChar("?x?yzza?y?", 2) => "yyxxxyzzaaayyy"  
 
 Resolução: [question_2.js](./src/scripts/question_2.js)
@@ -40,7 +40,7 @@ Escreva uma função que receba 2 Strings. Essa função deve ter como retorno u
 
 retorno =(maiorLetraString1 menorLetraString2 ) + (maiorLetraString2  menorLetraString1)
 
-   a. function lettersSum("dacb", "gdab") =>  11  
-    - b. function lettersSum("dcb", "gdab") =>  18  
+*a. function lettersSum("dacb", "gdab") =>  11  
+*b. function lettersSum("dcb", "gdab") =>  18  
 
 Resolução: [question_3.js](./src/scripts/question_3.js)
