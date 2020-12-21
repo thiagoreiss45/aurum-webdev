@@ -40,7 +40,7 @@ Escreva uma função que receba 2 Strings. Essa função deve ter como retorno u
 
 retorno =(maiorLetraString1 menorLetraString2 ) + (maiorLetraString2  menorLetraString1)
 
-*a. function lettersSum("dacb", "gdab") =>  11  
-*b. function lettersSum("dcb", "gdab") =>  18  
+* a. function lettersSum("dacb", "gdab") =>  11  
+* b. function lettersSum("dcb", "gdab") =>  18  
 
 Resolução: [question_3.js](./src/scripts/question_3.js)
