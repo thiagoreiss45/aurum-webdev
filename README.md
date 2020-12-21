@@ -8,7 +8,7 @@ O desafio consiste na resolução de 3 questões, usando a linguagem JavaScript.
 ## Interface funcional
 
 Fiz uma simples interface gráfica com cada função implementada.
-Usei o Netifly como provedor.
+Usei o Netifly como provedor.  
 **Link**: https://aurum-intern-test.netlify.app/
 
 ## Setup
@@ -42,5 +42,5 @@ Escreva uma função que receba 2 Strings. Essa função deve ter como retorno u
 
     a. function lettersSum("dacb", "gdab") =>  11
     b. function lettersSum("dcb", "gdab") =>  18
-    
+
 Resolução: [question_3.js](./src/scripts/question_3.js)
