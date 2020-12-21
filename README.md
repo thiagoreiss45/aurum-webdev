@@ -7,8 +7,8 @@ O desafio consiste na resolução de 3 questões, usando a linguagem JavaScript.
 
 ## Interface funcional
 
-Fiz uma simples interface gráfica com cada função implementada.
-As respostas aparecem tanto visualmente na página quanto no console.
+Fiz uma simples interface gráfica com cada função implementada.  
+As respostas aparecem tanto visualmente na página quanto no console.  
 Usei o Netifly como provedor para se ter um preview.  
 **Link**: https://aurum-intern-test.netlify.app/
 
