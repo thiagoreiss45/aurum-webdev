@@ -14,7 +14,7 @@ Usei o Netifly como provedor.
 
 ## Setup
 
-Para abrir o projeto, basta clonar o repositório e abrir o arquivo index.html
+Para abrir o projeto, basta clonar o repositório.
 ```
 $ git clone https://github.com/thiagoreiss45/aurum-webdev
 ```
