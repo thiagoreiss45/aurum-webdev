@@ -1,48 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8"/>
+    <title>Aurum</title>
+    <link rel="stylesheet" href="src/styles/styles.css" />
+  </head>
+  <body>
+    <div class="questions">
+      <div class="question_section" >
+        <h1>Question 1</h1>
+        <h3>String</h3>
+        <input type="text" id='string1'>
+        <h3>Limit</h3>
+        <input type="text" id='limit'>
+        <button onclick="showHtml(removeRepeated(document.getElementById('string1').value,document.getElementById('limit').value),'result1')">Resultado</button>
+        <div class="result" id="result1"></div>
+      </div>
 
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="utf-8"/>
-        <title>Aurum</title>
-        <link rel="stylesheet" href="src/styles/styles.css" />
-        
-    </head>
-    <body>
-        <div class="questions">
-            <div class="question_section" >
-                <h1>Question 1</h1>
-                <h3>String</h3>
-                <input type="text" id='string1'>
-                <h3>Limit</h3>
-                <input type="text" id='limit'>
-                <button onclick="showHtml(removeRepeated(document.getElementById('string1').value,document.getElementById('limit').value),'result1')">Resultado</button>
-                <div class="result" id="result1"></div>
-            </div>
+      <div class="question_section">
+        <h1>Question 2</h1>
+        <h3>String</h3>
+        <input type="text" id='string2'>
+        <h3>Times</h3>
+        <input type="text" id='times'>
+        <button onclick="showHtml(replaceChar(document.getElementById('string2').value,document.getElementById('times').value),'result2')">Resultado</button>
+        <div class="result" id="result2"></div>
+      </div>
 
-            <div class="question_section">
-                <h1>Question 2</h1>
-                <h3>String</h3>
-                <input type="text" id='string2'>
-                <h3>Times</h3>
-                <input type="text" id='times'>
-                <button onclick="showHtml(replaceChar(document.getElementById('string2').value,document.getElementById('times').value),'result2')">Resultado</button>
-                <div class="result" id="result2"></div>
-            </div>
-
-            <div class="question_section">
-                <h1>Question 3</h1>
-                <h3>String 1</h3>
-                <input type="text" id='string3_1'>
-                <h3>String 2</h3>
-                <input type="text" id='string3_2'>
-                <button onclick="showHtml(lettersSum(document.getElementById('string3_1').value,document.getElementById('string3_2').value),'result3')">Resultado</button>
-                <div class="result" id="result3"></div>
-            </div>
-        </div>
-    </body>
-    <script  src="src/scripts/question_1.js"></script>
-    <script  src="src/scripts/question_2.js"></script> 
-    <script  src="src/scripts/question_3.js"></script> 
-    <script  src="src/scripts/show_result.js"></script>
+      <div class="question_section">
+        <h1>Question 3</h1>
+        <h3>String 1</h3>
+        <input type="text" id='string3_1'>
+        <h3>String 2</h3>
+        <input type="text" id='string3_2'>
+        <button onclick="showHtml(lettersSum(document.getElementById('string3_1').value,document.getElementById('string3_2').value),'result3')">Resultado</button>
+        <div class="result" id="result3"></div>
+      </div>
+    </div>
+  </body>
+  <script  src="src/scripts/question_1.js"></script>
+  <script  src="src/scripts/question_2.js"></script> 
+  <script  src="src/scripts/question_3.js"></script> 
+  <script  src="src/scripts/show_result.js"></script>
 </html>
