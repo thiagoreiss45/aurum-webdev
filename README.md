@@ -21,14 +21,14 @@ $ git clone https://github.com/thiagoreiss45/aurum-webdev
 ## Questões
 
 ### Questão 1
-Escreva uma função que receba 2 parâmetros, uma String e um Inteiro. Essa função deve ter como retorno outra String.O objetivo da função é remover os caracteres repetidos consecutivamente e que extrapolam o limite (valor inteiro) passado como segundo parâmetro, ou seja, se o limite for 2, os caracteres podem ser repetidos no máximo duas vezes. Exemplos:  
+Escreva uma função que receba 2 parâmetros, uma String e um Inteiro. Essa função deve ter como retorno outra String. O objetivo da função é remover os caracteres repetidos consecutivamente e que extrapolam o limite (valor inteiro) passado como segundo parâmetro, ou seja, se o limite for 2, os caracteres podem ser repetidos no máximo duas vezes. Exemplos:  
 * a. function removeRepeated("xxxyzzaaayy", 1) => "xyzay"  
 * b. function removeRepeated("xxxyzzaaayy", 2) => "xxyzzaayy"  
 
 Resolução: [question_1.js](./src/scripts/question_1.js)
 
 ### Questão 2
-Escreva uma função que receba 2 parâmetros, uma String e um Inteiro.Essa função deve ter como retorno outra String. O Objetivo da função é substituir o caracter "?" criando uma repetição do caracter que está antes dele o número de vezes do parâmetro Inteiro. Caso o caracter "?" seja o primeiro da String fornecida ele deve repetir o último caracter da String. Exemplos:  
+Escreva uma função que receba 2 parâmetros, uma String e um Inteiro. Essa função deve ter como retorno outra String. O Objetivo da função é substituir o caracter "?" criando uma repetição do caracter que está antes dele o número de vezes do parâmetro Inteiro. Caso o caracter "?" seja o primeiro da String fornecida ele deve repetir o último caracter da String. Exemplos:  
 * a. function replaceChar("x?yzza?y?", 1) => "xxyzzaayy"  
 * b. function replaceChar("x?yzza?y?", 2) => "xxxyzzaaayyy"  
 * c. function replaceChar("?x?yzza?y?", 2) => "yyxxxyzzaaayyy"  
