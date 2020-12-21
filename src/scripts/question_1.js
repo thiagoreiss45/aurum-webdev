@@ -4,24 +4,27 @@
  * @return {string}  
  */
 const removeRepeated = (string, limit) => {
-    var limit_aux = 0;
-    var array = [...string];  //  String to Array transformation.
+  let limit_aux = 0;
 
-    //  The filter() function iterates over the elements and creates a new array, then add only the elements that passed the return conditions. 
-    //  item = element, pos = index, arr = array
-    array = array.filter((item,pos,arr)=>{   
-         
-        //  When a different item is found, the consecutivity is ended, then limit_aux gets reseted
-        if (item != arr[pos-1]) {   
-            limit_aux = 0;
-        } else {
-            limit_aux +=1;
-        }
+  //  String to Array transformation.
+  const str_array = [...string];  
 
-        //  If its the first element, or the number of equal consecutives is less than the limit, add the element(returns true)
-        return pos === 0 || limit_aux<limit;
-    })
+  // char = character, pos = position, arr = array
+  const isCharValid = (char, pos, arr) => {   
     
-    array = array.join('');  //  Array to String through join() function
-    return array;
-}
+    //  When a different char is found, then limit_aux gets reseted
+    if (char !== arr[pos-1]) {   
+      limit_aux = 0;
+    } else {
+      limit_aux += 1;
+    }
+
+    return pos === 0 || limit_aux < limit;
+  };
+    
+  //  If "isCharValid" returns true, add the element to "array_filtered"
+  const array_filtered = str_array.filter(isCharValid);
+    
+  //  Array to String through join() function
+  return array_filtered.join('');
+};
