@@ -38,7 +38,7 @@ Resolução: [question_2.js](./src/scripts/question_2.js)
 ### Questão 3 
 Escreva uma função que receba 2 Strings. Essa função deve ter como retorno um número. O objetivo da função é ordenar as 2 strings alfabeticamente e extrair de cada uma a maior e a menor letra. Transforme essa letra em um número considerando que o alfabeto é uma sequência numérica e a letra "a" é igual a 1 a letra "b" é igual a 2 e assim sucessivamente. O retorno da função deve ser a soma da multiplicação entre a maior letra da primeira String é a menor letra da segunda String com a multiplicação entre a maior letra da segunda String e a menor letra da primeira String.  
 
-*retorno =(maiorLetraString1 menorLetraString2 ) + (maiorLetraString2  menorLetraString1)*  
+retorno =(maiorLetraString1 menorLetraString2 ) + (maiorLetraString2  menorLetraString1)
 
     - a. function lettersSum("dacb", "gdab") =>  11  
     - b. function lettersSum("dcb", "gdab") =>  18  
