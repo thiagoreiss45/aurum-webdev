@@ -9,28 +9,28 @@ const lettersSum = (string1, string2) => {
 
   //  String to Array transformations.
   const alphabet_array = [...alphabet_string];
-  const str_array1 = [...string1];
-  const str_array2 = [...string2];
+  const str1_array = [...string1];
+  const str2_array = [...string2];
 
   //  Arrays to store the number of each char
   let str1_numbers = []
   let str2_numbers = []
 
   //  For each array char, an index of corresponding value associated
-  str_array1.forEach(char => {
+  str1_array.forEach(char => {
     str1_numbers.push(alphabet_array.indexOf(char) + 1)
   });
-  str_array2.forEach(char => {
+  str2_array.forEach(char => {
     str2_numbers.push(alphabet_array.indexOf(char) + 1)
   });
 
   //  Math.max()/min() returns the higher/lower value.
-  let higherStr1 = Math.max(...str1_numbers);
-  let lowerStr1 = Math.min(...str1_numbers);
-  let higherStr2 = Math.max(...str2_numbers);
-  let lowerStr2 = Math.min(...str2_numbers);
+  let str1_higher = Math.max(...str1_numbers);
+  let str1_lower = Math.min(...str1_numbers);
+  let str2_higher = Math.max(...str2_numbers);
+  let str2_lower = Math.min(...str2_numbers);
 
   //  Equation given
-  let equation = (higherStr1*lowerStr2) + (higherStr2*lowerStr1);
+  let equation = (str1_higher*str2_lower) + (str2_higher*str1_lower);
   return equation;
 };
